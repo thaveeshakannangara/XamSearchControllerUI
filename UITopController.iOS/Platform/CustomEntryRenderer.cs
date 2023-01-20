@@ -30,8 +30,8 @@ namespace UITopController.iOS.Platform
 
             _line = new CALayer
             {
-                BorderColor = UIColor.FromRGB(174, 174, 174).CGColor,
-                BackgroundColor = UIColor.FromRGB(174, 174, 174).CGColor,
+                BorderColor = Color.Transparent.ToCGColor(),//  UIColor.FromRGB(174, 174, 174).CGColor,
+                BackgroundColor = Color.Transparent.ToCGColor(),// UIColor.FromRGB(174, 174, 174).CGColor,
                 Frame = new CGRect(0, Frame.Height / 2, Frame.Width * 2, 1f)
             };
 
