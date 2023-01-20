@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
     <Compile Include="Platform\CustomEntryRenderer.cs" />
+    <Compile Include="Platform\CustomPickerRenderer.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

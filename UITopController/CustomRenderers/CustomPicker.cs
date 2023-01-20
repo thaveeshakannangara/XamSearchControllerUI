@@ -2,7 +2,7 @@
 
 namespace UITopController.CustomRenderers
 {
-	public class CustomEntry : Entry
+	public class CustomPicker : Picker
 	{
 	}
 }
