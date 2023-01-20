@@ -14,8 +14,10 @@ namespace UITopController.iOS.Platform
 
 			if (Control == null || e.NewElement == null)
 				return;
-			Control.Layer.BorderWidth = 1;
+			Control.Layer.BorderWidth = 0;
+			Control.BorderStyle = UIKit.UITextBorderStyle.None;
 			Control.Layer.BorderColor = Color.Transparent.ToCGColor();
+			Control.BackgroundColor = Color.Transparent.ToUIColor();
 		}
 	}
 }

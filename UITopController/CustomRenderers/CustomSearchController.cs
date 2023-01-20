@@ -189,7 +189,7 @@ namespace UITopController.CustomRenderers
 			{
 				BackgroundColor = InnerBackgroundColor,
 				Padding = new Thickness(1, 1, 1, 1),
-				HasShadow = true,
+				HasShadow = false,
 				CornerRadius = 7
 			};
 
